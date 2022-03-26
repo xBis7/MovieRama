@@ -1,4 +1,4 @@
-package xbis.assignment.controllers;
+package xbis.com.controllers;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import xbis.assignment.models.Movie;
+import xbis.com.models.Movie;
 
-import xbis.assignment.services.MovieService;
+import xbis.com.services.MovieService;
 
 @Controller
 public class UserAnonymController {

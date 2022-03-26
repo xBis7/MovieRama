@@ -1,4 +1,4 @@
-package xbis.assignment.dao;
+package xbis.com.dao;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;

@@ -1,6 +1,6 @@
-package xbis.assignment.services;
+package xbis.com.services;
 
-import xbis.assignment.models.Movie;
+import xbis.com.models.Movie;
 
 import java.util.List;
 

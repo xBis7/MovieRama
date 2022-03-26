@@ -1,8 +1,8 @@
-package xbis.assignment.dao;
+package xbis.com.dao;
 
 import java.util.List;
 
-import xbis.assignment.models.Movie;
+import xbis.com.models.Movie;
 
 public interface MovieDAO {
 	

@@ -1,8 +1,8 @@
-package xbis.assignment.services;
+package xbis.com.services;
 
 import java.util.List;
 
-import xbis.assignment.models.User;
+import xbis.com.models.User;
 
 public interface UserService {
 	

@@ -1,4 +1,4 @@
-package xbis.assignment.services;
+package xbis.com.services;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import xbis.assignment.dao.UserDAO;
-import xbis.assignment.models.User;
+import xbis.com.dao.UserDAO;
+import xbis.com.models.User;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {

@@ -1,4 +1,4 @@
-package xbis.assignment.services;
+package xbis.com.services;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import xbis.assignment.dao.VoteDAO;
-import xbis.assignment.models.Vote;
+import xbis.com.dao.VoteDAO;
+import xbis.com.models.Vote;
 
 @Service("voteService")
 public class VoteServiceImpl implements VoteService {

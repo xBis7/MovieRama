@@ -1,4 +1,4 @@
-package xbis.assignment.models;
+package xbis.com.models;
 
 import java.util.List;
 

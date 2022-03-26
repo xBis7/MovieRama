@@ -1,4 +1,4 @@
-package xbis.assignment.controllers;
+package xbis.com.controllers;
 
 import java.util.List;
 
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import xbis.assignment.models.User;
-import xbis.assignment.models.Vote;
-import xbis.assignment.models.Movie;
+import xbis.com.models.User;
+import xbis.com.models.Vote;
+import xbis.com.models.Movie;
 
-import xbis.assignment.services.UserService;
-import xbis.assignment.services.MovieService;
-import xbis.assignment.services.VoteService;
+import xbis.com.services.UserService;
+import xbis.com.services.MovieService;
+import xbis.com.services.VoteService;
 
 @Controller
 public class UserAuthController {

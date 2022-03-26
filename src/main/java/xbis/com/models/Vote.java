@@ -1,4 +1,4 @@
-package xbis.assignment.models;
+package xbis.com.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

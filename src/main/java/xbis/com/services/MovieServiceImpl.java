@@ -1,6 +1,6 @@
-package xbis.assignment.services;
+package xbis.com.services;
 
-import xbis.assignment.models.Movie;
+import xbis.com.models.Movie;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import xbis.assignment.dao.MovieDAO;
+import xbis.com.dao.MovieDAO;
 
 @Service("movieService")
 public class MovieServiceImpl implements MovieService {

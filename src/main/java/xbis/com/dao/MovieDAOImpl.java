@@ -1,4 +1,4 @@
-package xbis.assignment.dao;
+package xbis.com.dao;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -10,7 +10,7 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import xbis.assignment.models.Movie;
+import xbis.com.models.Movie;
 
 @Repository
 public class MovieDAOImpl implements MovieDAO {

@@ -1,8 +1,8 @@
-package xbis.assignment.dao;
+package xbis.com.dao;
 
 import java.util.List;
 
-import xbis.assignment.models.User;
+import xbis.com.models.User;
 
 
 public interface UserDAO {

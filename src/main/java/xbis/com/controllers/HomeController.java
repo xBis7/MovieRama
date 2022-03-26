@@ -1,4 +1,4 @@
-package xbis.assignment.controllers;
+package xbis.com.controllers;
 
 import java.util.Map;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import xbis.assignment.models.User;
+import xbis.com.models.User;
 
-import xbis.assignment.services.UserService;
+import xbis.com.services.UserService;
 
 @Controller
 public class HomeController {

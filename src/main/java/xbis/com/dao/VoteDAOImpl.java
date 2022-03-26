@@ -1,4 +1,4 @@
-package xbis.assignment.dao;
+package xbis.com.dao;
 
 import java.util.List;
 
@@ -9,8 +9,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import xbis.assignment.models.Vote;
-import xbis.assignment.models.Movie;
+import xbis.com.models.Vote;
 
 @Repository
 public class VoteDAOImpl implements VoteDAO {
